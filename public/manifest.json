@@ -4,13 +4,11 @@
   "icons": [
     {
       "src": "github.png",
-      "type": "image/png",
-      "sizes": "192x192"
+      "type": "image/png"
     },
     {
       "src": "linkedin.png",
-      "type": "image/png",
-      "sizes": "192x192"
+      "type": "image/png"
     }
   ],
   "start_url": ".",
