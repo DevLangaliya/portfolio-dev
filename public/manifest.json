@@ -9,10 +9,26 @@
     {
       "src": "linkedin.png",
       "type": "image/png"
+    },
+    {
+      "src": "main-logo.jpeg",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "blue-logo.png",
+      "type": "image/png"
+    },
+    {
+      "src": "white-logo.png",
+      "type": "image/png"
+    },
+    {
+      "src": "black-logo.png",
+      "type": "image/png"
     }
   ],
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "background_color": "transparent"
 }
