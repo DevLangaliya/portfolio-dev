@@ -7,8 +7,25 @@ export default function Projects() {
         <div className="App-projects-container">
             <Fade right>
                 <div className="App-project">
+                    <h2>ShowMe!</h2>
+                    <li>Collaborated with a team to create a movie recommendation web app, with data being pulled via the TMDB API.</li>
+                    <li>Utilized the K-Nearest Neighbors algorithm to locate and display movies with similar genres and viewer ratings.</li>
+                    <li>Implemented Flask in combination with HTML to form a intuitive front-end web page with Python.</li>
+                </div>
+            </Fade>
+
+            <Fade left>
+                <div className="App-project">
+                    <h2>Plant Classification using Transfer Learning</h2>
+                    <li>Collaborated with a team to develop an application which classifies plants based on an already provided dataset.</li>
+                    <li>Utilized transfer learning to set the foundation for our plant classification model.</li>
+                </div>
+            </Fade>
+
+            <Fade right>
+                <div className="App-project">
                     <h2>Java Dynasty Simulator</h2>
-                    <li>American Football simulation game where the user manages an American Football team through a 17 week season.</li>
+                    <li>American Football simulation game where the user manages an American Football team through a full season.</li>
                     <li>Watch games unfold during real time with a play-by-play of each team’s possessions in a new window.</li>
                     <li>Used statistical methods to show the cumulative stats for players across all games in a graphical window view.</li>
                 </div>
@@ -16,22 +33,10 @@ export default function Projects() {
 
             <Fade left>
                 <div className="App-project">
-                    <h2>Project 2</h2>
-                    <p>This is the content for project 2.</p>
-                </div>
-            </Fade>
-
-            <Fade right>
-                <div className="App-project">
-                    <h2>Project 3</h2>
-                    <p>This is the content for project 3.</p>
-                </div>
-            </Fade>
-
-            <Fade left>
-                <div className="App-project">
-                    <h2>Project 4</h2>
-                    <p>This is the content for project 4.</p>
+                    <h2>Wheel Of Fortune</h2>
+                    <li>Recreation of the popular TV show to be played by three players on a web browser.</li>
+                    <li>Implemented a spinning wheel with various monetary values for the game using CSS.</li>
+                    <li>Created an easy to follow and dynamic webpage using HTML.</li>
                 </div>
             </Fade>
         </div>
