@@ -8,10 +8,10 @@ export default function AboutMe() {
       <Fade>
         <h1>About Me</h1>
       </Fade>
-      <div class="slides-container">
-        <div class="slides">
+      <div className="slides-container">
+        <div className="slides">
           <Fade bottom>
-            <div class="carousel-item active">
+            <div className="carousel-item active">
               <p>
                 I am a Mathematics and Econometrics student at the University of Illinois at Urbana-Champaign.
               </p>
@@ -19,7 +19,7 @@ export default function AboutMe() {
           </Fade>
 
           <Fade bottom right>
-            <div class="carousel-item ">
+            <div className="carousel-item ">
               <p>
                 I am a software engineer with a passion for building web applications.
               </p>
@@ -27,7 +27,7 @@ export default function AboutMe() {
           </Fade>
 
           <Fade bottom right>
-            <div class="carousel-item ">
+            <div className="carousel-item ">
               <p>
                 I am a software engineer with a passion for building web applications.
               </p>
@@ -35,7 +35,7 @@ export default function AboutMe() {
           </Fade>
 
           <Fade bottom right>
-            <div class="carousel-item ">
+            <div className="carousel-item ">
               <p>
                 I am a software engineer with a passion for building web applications.
               </p>
@@ -43,7 +43,7 @@ export default function AboutMe() {
           </Fade>
 
           <Fade bottom right>
-            <div class="carousel-item ">
+            <div className="carousel-item ">
               <p>
                 I am a software engineer with a passion for building web applications.
               </p>
