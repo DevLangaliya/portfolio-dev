@@ -1,19 +1,15 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Portfolio",
+  "name": "Dev Langaliya's Portfolio",
   "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
     {
       "src": "github.png",
       "type": "image/png"
-    },
-    {
-      "src": "linkedin.png",
-      "type": "image/png"
-    },
-    {
-      "src": "favico.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
     },
     {
       "src": "blue-logo.png",
@@ -25,6 +21,10 @@
     },
     {
       "src": "black-logo.png",
+      "type": "image/png"
+    },
+    {
+      "src": "linkedin.png",
       "type": "image/png"
     }
   ],
