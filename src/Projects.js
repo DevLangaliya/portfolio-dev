@@ -25,7 +25,7 @@ export default function Projects() {
                     <p>This is the content for project 3.</p>
                 </div>
             </Fade>
-            
+
             <Fade left>
                 <div className="App-project">
                     <h2>Project 4</h2>
