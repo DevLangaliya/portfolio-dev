@@ -1,5 +1,5 @@
 import React from "react";
-import 'src/styles/AboutMe.css';
+import './AboutMe.css';
 import Fade from 'react-reveal/Fade';
 
 export default function AboutMe() {
