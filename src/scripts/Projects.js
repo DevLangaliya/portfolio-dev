@@ -1,5 +1,5 @@
 import React from 'react';
-import './Projects.css';
+import 'src/styles/Projects.css';
 import { Fade } from 'react-reveal';
 
 export default function Projects() {
