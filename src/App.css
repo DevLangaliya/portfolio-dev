@@ -35,6 +35,11 @@
 .App-project {
   text-size-adjust: auto;
   border: 2px solid #353935;
+  
+  /* Media query for screens smaller than 768px */
+  @media (max-width: 767px) {
+    border: 1px solid #353935;
+  }
   max-height: 25vh;
   min-height: 25vh;
   max-width: 99.75vw;
