@@ -1,0 +1,6 @@
+.title {
+    background: -webkit-linear-gradient(135deg, #BFF098, #6FD6FF);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
