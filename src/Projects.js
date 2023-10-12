@@ -11,18 +11,21 @@ export default function Projects() {
                     <p>This is the content for project 1.</p>
                 </div>
             </Fade>
+
             <Fade left>
                 <div className="App-project">
                     <h2>Project 2</h2>
                     <p>This is the content for project 2.</p>
                 </div>
             </Fade>
+
             <Fade right>
                 <div className="App-project">
                     <h2>Project 3</h2>
                     <p>This is the content for project 3.</p>
                 </div>
             </Fade>
+            
             <Fade left>
                 <div className="App-project">
                     <h2>Project 4</h2>
