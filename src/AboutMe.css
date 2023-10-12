@@ -32,5 +32,16 @@
     align-items: center;
     font-size: 44px;
     text-align: center;
+    @media (max-width: 767px) {
+        font-size: 15px;
+        text-wrap: wrap;
+    }
 
+}
+
+.image {
+    align-self: center;
+    @media (max-width: 767px) {
+        scale: 0.25;
+    }
 }

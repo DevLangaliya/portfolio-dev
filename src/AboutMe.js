@@ -1,11 +1,12 @@
 import React from "react";
 import './AboutMe.css';
 import Fade from 'react-reveal/Fade';
+import logo from './white-logo.svg';
 
 export default function AboutMe() {
   return (
     <main className="App-aboutme">
-      <Fade>
+      <Fade bottom>
         <h1>About Me</h1>
       </Fade>
       <div className="slides-container">
@@ -51,6 +52,7 @@ export default function AboutMe() {
           </Fade>
         </div>
       </div>
+      <img src={logo} alt="Dev Langaliya" width="300" className="image"/>
     </main>
   );
 }

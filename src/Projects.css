@@ -1,12 +1,29 @@
 h2 {
     text-align: center;
     text-size-adjust: auto;
+    @media (max-width: 767px) {
+        font-size: 15px;
+    }
+}
+
+.header {
+    text-align: center;
+    text-size-adjust: auto;
+    @media (max-width: 767px) {
+        font-size: 15px;
+    }
 }
 
 li {
     padding-left: 3rem;
     text-wrap: wrap;
-    text-size-adjust: auto;
+
+    @media (max-width: 767px) {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        font-size: 10px;
+    }
+    font-size-adjust: auto;
 }
 
 
