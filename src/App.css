@@ -6,6 +6,7 @@
 }
 
 .App-header {
+  text-size-adjust: auto;
   background-image: linear-gradient(135deg, #0098f3, #644CAC, #c80065);
   min-height: 100vh;
   display: flex;
@@ -18,6 +19,7 @@
 }
 
 .App-aboutme {
+  text-size-adjust: auto;
   flex: 1;
   display: flex;
   min-height: 100vh;
@@ -31,14 +33,16 @@
 }
 
 .App-project {
+  text-size-adjust: auto;
   border: 2px solid #353935;
   max-height: 25vh;
   min-height: 25vh;
-  width: 99.75vw;
+  max-width: 99.75vw;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .App-footer {
+  text-size-adjust: auto;
   float: bottom;
   background-color: white;
   color: white;
