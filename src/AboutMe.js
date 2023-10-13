@@ -11,7 +11,7 @@ export default function AboutMe() {
       <div className="slides-container">
         <div className="slides">
           <Fade bottom>
-            <div className="carousel-item active">
+            <div className="carousel-item ">
               <p>
                 I study Applied Mathematics and Econometrics student at the University of Illinois at Urbana-Champaign.
               </p>
