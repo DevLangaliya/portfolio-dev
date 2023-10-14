@@ -28,25 +28,31 @@ export default function AboutMe() {
 
           <Fade right>
             <div className="carousel-item ">
-              <p>
-                I am a software engineer with a passion for building web applications.
-              </p>
+              <div className="centerWrap">
+                <p>
+                  I am a software engineer with a passion for building web applications.
+                </p>
+              </div>
             </div>
           </Fade>
 
           <Fade right>
             <div className="carousel-item ">
-              <p>
-                I am a software engineer with a passion for building web applications.
-              </p>
+              <div className="centerWrap">
+                <p>
+                  I am a software engineer with a passion for building web applications.
+                </p>
+              </div>
             </div>
           </Fade>
 
           <Fade right>
             <div className="carousel-item ">
-              <p>
-                I am a software engineer with a passion for building web applications.
-              </p>
+              <div className="centerWrap">
+                <p>
+                  I am a software engineer with a passion for building web applications.
+                </p>
+              </div>
             </div>
           </Fade>
         </div>

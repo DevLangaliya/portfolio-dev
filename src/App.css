@@ -4,7 +4,7 @@
 
 .App-header {
   text-size-adjust: auto;
-  background-color: black;
+  background-color: #313638;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -17,7 +17,7 @@
 }
 
 .App-projects-container {
-  background-color: black;
+  background-color: #313638;
 }
 
 .App-aboutme {
@@ -29,7 +29,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(15px + 2vmin);
-  color: black;
+  color: #313638;
   background-color: #FBFAF5;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
   @media (max-width: 767px) {
@@ -40,7 +40,7 @@
 }
 
 .App-projects-container {
-  background-image: black;
+  background-image: #313638;
 }
 
 .App-project {
