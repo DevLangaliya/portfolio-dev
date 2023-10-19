@@ -13,7 +13,7 @@ export default function Projects() {
                     <h2 className='proj-name'>ShowMe!</h2>
                     <li className='proj-desc'>Collaborated with a team to create a movie recommendation web app, with data being pulled via the TMDB API.</li>
                     <li className='proj-desc'>Utilized the K-Nearest Neighbors algorithm to locate and display movies with similar genres and viewer ratings.</li>
-                    <li className='proj-desc'>Implemented Flask in combination with HTML to form a intuitive front-end web page with Python.</li>
+                    <li className='proj-desc'>Implemented Flask in combination with React to form a intuitive front-end web page with Python.</li>
                     <br></br>
                     <br></br>
                     <br></br>
