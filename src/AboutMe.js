@@ -23,7 +23,12 @@ export default function AboutMe() {
           <Fade right>
             <div className="carousel-item">
               <div className="centerWrap">
-                <p style={{"maxWidth": "900px"}}>
+                <p style={
+                  {
+                    "maxWidth": "900px"
+                    
+                  }
+                }>
                   I have an interest in building intuitive and user-friendly web applications, such as this website. 
                 </p>
               </div>
@@ -34,7 +39,7 @@ export default function AboutMe() {
             <div className="carousel-item">
               <div className="centerWrap">
                 <p style={{"maxWidth": "900px"}}>
-                  Iam currently working a web application which allows the user to practice their poker skills with real time board analysis.
+                  I am currently working a web application which allows the user to practice their poker skills with real time board analysis.
                 </p>
               </div>
             </div>
