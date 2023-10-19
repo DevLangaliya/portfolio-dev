@@ -13,8 +13,8 @@ export default function AboutMe() {
           <Fade bottom>
             <div className="carousel-item">
               <div className="centerWrap">
-                <p>
-                  My name is Dev Langaliya. 
+                <p style={{"maxWidth": "900px"}}>
+                  My name is Dev Langaliya, and I currently study Applied Mathematics and Econoimcs at the University of Illinois Urbana-Champaign.
                 </p>
               </div>
             </div>
@@ -23,7 +23,7 @@ export default function AboutMe() {
           <Fade right>
             <div className="carousel-item">
               <div className="centerWrap">
-                <p>
+                <p style={{"maxWidth": "900px"}}>
                   I have an interest in building intuitive and user-friendly web applications, such as this website. 
                 </p>
               </div>
@@ -33,7 +33,17 @@ export default function AboutMe() {
           <Fade right>
             <div className="carousel-item">
               <div className="centerWrap">
-                <p>
+                <p style={{"maxWidth": "900px"}}>
+                  Iam currently working a web application which allows the user to practice their poker skills with real time board analysis.
+                </p>
+              </div>
+            </div>
+          </Fade>
+
+          <Fade right>
+            <div className="carousel-item">
+              <div className="centerWrap">
+                <p style={{"maxWidth": "900px"}}>
                   I am a software engineer with a passion for building web applications.
                 </p>
               </div>
@@ -43,17 +53,7 @@ export default function AboutMe() {
           <Fade right>
             <div className="carousel-item">
               <div className="centerWrap">
-                <p>
-                  I am a software engineer with a passion for building web applications.
-                </p>
-              </div>
-            </div>
-          </Fade>
-
-          <Fade right>
-            <div className="carousel-item">
-              <div className="centerWrap">
-                <p>
+                <p style={{"maxWidth": "900px"}}>
                   I am a software engineer with a passion for building web applications.
                 </p>
               </div>
