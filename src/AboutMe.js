@@ -11,23 +11,27 @@ export default function AboutMe() {
       <div className="slides-container">
         <div className="slides">
           <Fade bottom>
-            <div className="carousel-item ">
-              <p>
-                I study Applied Mathematics and Econometrics student at the University of Illinois at Urbana-Champaign.
-              </p>
+            <div className="carousel-item">
+              <div className="centerWrap">
+                <p>
+                  My name is Dev Langaliya. 
+                </p>
+              </div>
             </div>
           </Fade>
 
           <Fade right>
-            <div className="carousel-item ">
-              <p>
-                I am currently learning React.js.
-              </p>
+            <div className="carousel-item">
+              <div className="centerWrap">
+                <p>
+                  I have an interest in building intuitive and user-friendly web applications, such as this website. 
+                </p>
+              </div>
             </div>
           </Fade>
 
           <Fade right>
-            <div className="carousel-item ">
+            <div className="carousel-item">
               <div className="centerWrap">
                 <p>
                   I am a software engineer with a passion for building web applications.
@@ -37,7 +41,7 @@ export default function AboutMe() {
           </Fade>
 
           <Fade right>
-            <div className="carousel-item ">
+            <div className="carousel-item">
               <div className="centerWrap">
                 <p>
                   I am a software engineer with a passion for building web applications.
@@ -47,7 +51,7 @@ export default function AboutMe() {
           </Fade>
 
           <Fade right>
-            <div className="carousel-item ">
+            <div className="carousel-item">
               <div className="centerWrap">
                 <p>
                   I am a software engineer with a passion for building web applications.
