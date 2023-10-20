@@ -23,7 +23,7 @@ export default function Projects() {
             <Fade left>
                 <div className="App-project">
                     <h2 className='proj-name'>Plant Classification using Transfer Learning</h2>
-                    <div style={{"textAlign": "right", "paddingRight":"2rem"}}>
+                    <div className='r' style={{"textAlign": "right", "paddingRight":"2rem"}}>
                         <li className='proj-desc'>Collaborated with a team to develop an application which classifies plants based on an already provided dataset.</li>
                         <li className='proj-desc'>Utilized transfer learning to set the foundation for our plant classification model.</li>
                     </div>

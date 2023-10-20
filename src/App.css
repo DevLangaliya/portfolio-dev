@@ -51,11 +51,13 @@
   max-width: 99.75vw;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   @media (max-width: 767px) {
-      padding-left: 1rem;
-      padding-right: 1rem;
-      font-size: 10px;
-    }
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 10px;
+  }
 }
+
+
 
 .App-footer {
   text-size-adjust: auto;

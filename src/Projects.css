@@ -25,6 +25,13 @@
     font-weight:bold;
 }
 
+.r {
+    @media (max-width: 767px) {
+        padding-right: 1rem;
+        font-size: 10px;
+    }
+}
+
 
 .proj-name {
     text-align: center;
