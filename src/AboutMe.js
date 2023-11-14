@@ -3,6 +3,11 @@ import './AboutMe.css';
 import Fade from 'react-reveal/Fade';
 
 export default function AboutMe() {
+  const randomColor = () => {
+    const colors = ["red", "blue", "green", "orange", "purple", "pink"];
+    return colors[Math.floor(Math.random() * colors.length)];
+  };
+
   return (
     <main className="App-aboutme">
       <Fade bottom>
@@ -13,8 +18,8 @@ export default function AboutMe() {
           <Fade bottom>
             <div className="carousel-item">
               <div className="centerWrap">
-                <p className="aboutme-width">
-                  My name is Dev Langaliya, and I currently study Applied Mathematics and Econoimcs at the University of Illinois Urbana-Champaign.
+                <p className="aboutme-width" style={{ color: randomColor() }}>
+                  My name is Dev Langaliya, and I currently study Statistics and Economics at the University of Illinois Urbana-Champaign.
                 </p>
               </div>
             </div>
@@ -23,7 +28,7 @@ export default function AboutMe() {
           <Fade right>
             <div className="carousel-item">
               <div className="centerWrap">
-                <p className="aboutme-width">
+                <p className="aboutme-width" style={{ color: randomColor() }}>
                   I have an interest in building intuitive and user-friendly web applications, such as this website. 
                 </p>
               </div>
@@ -33,8 +38,8 @@ export default function AboutMe() {
           <Fade right>
             <div className="carousel-item">
               <div className="centerWrap">
-                <p className="aboutme-width">
-                  I am currently working on a web application which allows the user to practice their poker skills with real time board analysis.
+                <p className="aboutme-width" style={{ color: randomColor() }}>
+                  I am currently working on a project that will allow users to create their own fantasy football league and compete against their friends.
                 </p>
               </div>
             </div>
@@ -43,7 +48,7 @@ export default function AboutMe() {
           <Fade right>
             <div className="carousel-item">
               <div className="centerWrap">
-                <p className="aboutme-width">
+                <p className="aboutme-width" style={{ color: randomColor() }}>
                   I am a software engineer with a passion for building web applications.
                 </p>
               </div>
@@ -52,10 +57,19 @@ export default function AboutMe() {
 
           <Fade right>
             <div className="carousel-item">
-              <div className="centerWrap">
-                <p className="aboutme-width">
-                  I am a software engineer with a passion for building web applications.
-                </p>
+              <header>
+                <text>
+                  More Links:
+                </text>
+              </header>
+              <br></br>
+              <div className="centerWrap" style={{ textAlign: "center" }}>
+                <a href="https://www.github.com/DevLangaliya" target="_blank" rel="noopener noreferrer">
+                  <img src="./github.png" alt="Dev Langaliya" width="32" />
+                </a>
+                <a href="https://www.linkedin.com/in/dev-langaliya" target="_blank" rel="noopener noreferrer">
+                  <img src="./linkedin.png" alt="Dev Langaliya" width="32" />
+                </a>
               </div>
             </div>
           </Fade>

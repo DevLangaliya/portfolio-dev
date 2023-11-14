@@ -5,7 +5,7 @@
         -webkit-background-clip: text;
         background-clip: text;
         -webkit-text-fill-color: transparent;
-    background-image: #313638;
+    background-image: #121212;
     font-family: Cambria,
         Cochin,
         Georgia,
@@ -20,7 +20,7 @@
 }
 
 .proj {
-    color: black;
+    color: #121212;
     font-size: 44px;
     font-weight:bold;
 }
