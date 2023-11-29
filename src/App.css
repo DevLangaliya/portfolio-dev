@@ -2,36 +2,18 @@
   text-align: center;
 }
 
-.App-header {
-  text-size-adjust: auto;
-  background-color: #121212;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(25px + 2vmin);
-  text-align: center;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-
-}
-
-.App-projects-container {
-  background-color: #121212;
-}
-
 .App-aboutme {
   text-size-adjust: auto;
   flex: 1;
   display: flex;
-  min-height: 100vh;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(15px + 2vmin);
-  color: #FBFAF5;
+  font-size: 25px;
+  color: #121212;
   background-color: #121212;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+  
+  font-family: sans-serif;  
   @media (max-width: 767px) {
     min-height: 50vh;
     
@@ -40,29 +22,14 @@
 }
 
 .App-projects-container {
-  background-image: #121212;
+  background-color: #121212;
 }
 
 .App-project {
-  text-size-adjust: auto;
-  border: 2px solid white;
-  max-height: 25vh;
-  min-height: 25vh;
-  max-width: 99.75vw;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   @media (max-width: 767px) {
     padding-left: 1rem;
     padding-right: 1rem;
     font-size: 10px;
   }
-}
-
-
-
-.App-footer {
-  text-size-adjust: auto;
-  float: bottom;
-  font-size: calc(10px + 1vmin);
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 

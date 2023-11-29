@@ -6,12 +6,8 @@
         background-clip: text;
         -webkit-text-fill-color: transparent;
     background-image: #121212;
-    font-family: Cambria,
-        Cochin,
-        Georgia,
-        Times,
-        'Times New Roman',
-        serif;
+    font-family: sans-serif;
+    
 
     @media (max-width: 767px) {
         font-size: 12px;
@@ -40,6 +36,7 @@
         -webkit-background-clip: text;
         background-clip: text;
         -webkit-text-fill-color: transparent;
+    
     @media (max-width: 767px) {
         font-size: 15px;
     }
@@ -51,7 +48,8 @@
     padding-left: 3rem;
     text-wrap: wrap;
     font-size-adjust: auto;
-    color:white;
+    color: #121212;
+    font-family: sans-serif;
     @media (max-width: 767px) {
         padding-left: 1rem;
         padding-right: 1rem;

@@ -1,79 +1,56 @@
 import React from "react";
 import './AboutMe.css';
-import Fade from 'react-reveal/Fade';
 
 export default function AboutMe() {
   const randomColor = () => {
-    const colors = ["red", "blue", "green", "orange", "purple", "pink"];
+    const colors = ["#121212"];
     return colors[Math.floor(Math.random() * colors.length)];
   };
 
+  const flexboxStyle = {
+    display: 'flex',
+    backgroundColor: '#F1FAFF',
+    borderRadius: '15px',
+    height: '100px',
+    width: '300px',
+    padding: '10px',
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginBottom: '10px' 
+  }
+
+  const textStyle = {
+    color: randomColor(),
+    fontSize: '15px',
+    alignItems: 'center',
+    fontFamily: "Sans Serif",
+    weight: 'bold'
+  }
+
   return (
     <main className="App-aboutme">
-      <Fade bottom>
+      <div className="header">
         <h1 className="about-me">About Me</h1>
-      </Fade>
-      <div className="slides-container">
-        <div className="slides">
-          <Fade bottom>
-            <div className="carousel-item">
-              <div className="centerWrap">
-                <p className="aboutme-width" style={{ color: randomColor() }}>
-                  My name is Dev Langaliya, and I currently study Statistics and Economics at the University of Illinois Urbana-Champaign.
-                </p>
-              </div>
-            </div>
-          </Fade>
-
-          <Fade right>
-            <div className="carousel-item">
-              <div className="centerWrap">
-                <p className="aboutme-width" style={{ color: randomColor() }}>
-                  I have an interest in building intuitive and user-friendly web applications, such as this website. 
-                </p>
-              </div>
-            </div>
-          </Fade>
-
-          <Fade right>
-            <div className="carousel-item">
-              <div className="centerWrap">
-                <p className="aboutme-width" style={{ color: randomColor() }}>
-                  I am currently working on a project that will allow users to create their own fantasy football league and compete against their friends.
-                </p>
-              </div>
-            </div>
-          </Fade>
-
-          <Fade right>
-            <div className="carousel-item">
-              <div className="centerWrap">
-                <p className="aboutme-width" style={{ color: randomColor() }}>
-                  I am a software engineer with a passion for building web applications.
-                </p>
-              </div>
-            </div>
-          </Fade>
-
-          <Fade right>
-            <div className="carousel-item">
-              <header>
-                <text>
-                  More Links:
-                </text>
-              </header>
-              <br></br>
-              <div className="centerWrap" style={{ textAlign: "center" }}>
-                <a href="https://www.github.com/DevLangaliya" target="_blank" rel="noopener noreferrer">
-                  <img src="./github.png" alt="Dev Langaliya" width="32" />
-                </a>
-                <a href="https://www.linkedin.com/in/dev-langaliya" target="_blank" rel="noopener noreferrer">
-                  <img src="./linkedin.png" alt="Dev Langaliya" width="32" />
-                </a>
-              </div>
-            </div>
-          </Fade>
-        </div>
+      </div>
+      <div className="centerWrap" style={flexboxStyle}>
+        <p className="aboutme-width" style={textStyle}>
+          My name is Dev Langaliya, and I currently study Statistics and Economics at the University of Illinois Urbana-Champaign.
+        </p>
+      </div>
+      <div className="centerWrap" style={flexboxStyle}>
+        <p className="aboutme-width" style={textStyle}>
+          I have an interest in building intuitive and user-friendly web applications, such as this website. 
+        </p>
+      </div>
+      <div className="centerWrap" style={flexboxStyle}>
+        <p className="aboutme-width" style={textStyle}>
+          I am currently working on a project that will allow users to create their own fantasy football league and compete against their friends.
+        </p>
+      </div>
+      <div className="centerWrap" style={flexboxStyle}>
+        <p className="aboutme-width" style={textStyle}>
+          I am a software engineer with a passion for building web applications.
+        </p>
       </div>
     </main>
   );
