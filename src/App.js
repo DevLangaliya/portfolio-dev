@@ -27,7 +27,7 @@ const flexboxStyle = {
   justifyContent: 'flex-end', // Updated to align the div to the right
   alignItems: 'center',
   backgroundColor: '#121212',
-  padding: '10px',
+  padding: '15px',
   width: '336px',
   height: '620px'
 };
@@ -37,9 +37,9 @@ const flexboxStyle2 = {
   justifyContent: 'flex-end', // Updated to align the div to the right
   alignItems: 'center',
   backgroundColor: '#121212',
-  padding: '10px',
-  width: '820px',
-  height: '1080px'
+  padding: '15px',
+  width: '1216px',
+  height: '1140px'
 };
 
 const flexboxStyle3= {
@@ -47,7 +47,7 @@ const flexboxStyle3= {
   justifyContent: 'flex-end', // Updated to align the div to the right
   alignItems: 'center',
   backgroundColor: '#121212',
-  padding: '10px',
+  padding: '15px',
   width: '336px',
   height: '490px'
 };
