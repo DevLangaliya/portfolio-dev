@@ -4,8 +4,7 @@ import { Fade } from 'react-reveal';
 const ContactMe = () => {
     return (
         <div>
-            
-            <div className="header" style={{ textAlign: 'center', background: 'linear-gradient(bottom, #A1C4FD , #A1C4FD);', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent'}}>
+            <div className="header" style={headerStyle}>
                 <h1 >Contact Me!</h1>
             </div>
             <Fade left>
@@ -45,5 +44,12 @@ const flexboxStyle = {
     alignItems: 'center',
     marginBottom: '10px'
 }
+
+const headerStyle = {
+    textAlign: 'center',
+    background: 'linear-gradient(bottom, #A1C4FD , #A1C4FD)',
+    WebkitBackgroundClip: 'text',
+    WebkitTextFillColor: 'transparent'
+};
 
 export default ContactMe;
