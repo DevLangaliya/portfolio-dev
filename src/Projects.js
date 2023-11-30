@@ -39,28 +39,28 @@ export default function Projects() {
             </div>
             
             <ReactCardFlip isFlipped={flip1} flipDirection="vertical">
-                <div className="App-project" style={titleDivStyle} onClick={() => setFlip1(!flip1)}>
+                <div className="App-project" style={titleDivStyle} onClick={() => setFlip1(!flip1)} onMouseEnter={() => console.log("SHOW TOOLTIP")}>
                     <h2 className='proj-name'>ShowMe!</h2>
                 </div>
                 <div className="App-project" style={flipDivStyle} onClick={() => setFlip1(!flip1)}>
                     <li className='proj-desc'>Collaborated with a team to create a movie recommendation web app, with data being pulled via the TMDB API.</li>
-                    <li className='proj-desc'>Utilized the K-Nearest Neighbors algorithm to locate and display movies with similar genres and viewer ratings.</li>
+                    <li className='proj-desc'>Utilized cosine similarity to locate and display movies with similar genres and viewer ratings.</li>
                     <li className='proj-desc'>Implemented Flask in combination with React to form a intuitive front-end web page with Python.</li>
                 </div>
             </ReactCardFlip>
 
-            <ReactCardFlip isFlipped={flip2} flipDirection="vertical">
-                <div className="App-project" style={titleDivStyle} onClick={() => setFlip2(!flip2)}>
+            {/* <ReactCardFlip isFlipped={flip2} flipDirection="vertical">
+                <div className="App-project" style={titleDivStyle} onClick={() => setFlip2(!flip2)} onMouseEnter={() => console.log("SHOW TOOLTIP")}>
                     <h2 className='proj-name'>Plant Classification using Transfer Learning</h2>
                 </div>
                 <div className="App-project" style={flipDivStyle} onClick={() => setFlip2(!flip2)}>
                     <li className='proj-desc'>Collaborated with a team to develop an application which classifies plants based on an already provided dataset.</li>
                     <li className='proj-desc'>Utilized transfer learning to set the foundation for our plant classification model.</li>
                 </div>
-            </ReactCardFlip>
+            </ReactCardFlip> */}
 
             <ReactCardFlip isFlipped={flip3} flipDirection="vertical">
-                <div className="App-project" style={titleDivStyle} onClick={() => setFlip3(!flip3)}>
+                <div className="App-project" style={titleDivStyle} onClick={() => setFlip3(!flip3)} onMouseEnter={() => console.log("SHOW TOOLTIP")}>
                     <h2 className='proj-name'>Java Dynasty Simulator</h2>
                 </div>
                 <div className="App-project" style={flipDivStyle} onClick={() => setFlip3(!flip3)}>
@@ -70,15 +70,16 @@ export default function Projects() {
                 </div>
             </ReactCardFlip>
 
-            {/* <div className="App-project" style={flexboxStyle}>
-                <h2 className='proj-name'>Wheel Of Fortune</h2>
-                <li className='proj-desc'>Recreation of the popular TV show to be played by three players on a web browser.</li>
-                <li className='proj-desc'>Implemented a spinning wheel with various monetary values for the game using CSS.</li>
-                <li className='proj-desc'>Created an easy to follow and dynamic webpage using HTML.</li>
-                <br></br>
-                <br></br>
-                <br></br>
-            </div> */}
+            <ReactCardFlip isFlipped={flip2} flipDirection="vertical">
+                <div className="App-project" style={titleDivStyle} onClick={() => setFlip2(!flip2)} onMouseEnter={() => console.log("SHOW TOOLTIP")}>
+                    <h2 className='proj-name'>Wheel Of Fortune</h2>
+                </div>
+                <div className="App-project" style={flipDivStyle} onClick={() => setFlip2(!flip2)}>
+                    <li className='proj-desc'>Recreation of the popular TV show to be played by three players on a web browser.</li>
+                    <li className='proj-desc'>Implemented a spinning wheel with various monetary values for the game using CSS.</li>
+                    <li className='proj-desc'>Created an easy to follow and dynamic webpage using HTML.</li>
+                </div>
+            </ReactCardFlip>
         </div>
     );
 }
