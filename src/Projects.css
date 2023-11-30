@@ -1,7 +1,7 @@
 .header {
     text-align: center;
     text-size-adjust: auto;
-    background: -webkit-linear-gradient(135deg, #D8B5FF , #1EAE98);
+    background: -webkit-linear-gradient(bottom, #A1C4FD , #A1C4FD);
         -webkit-background-clip: text;
         background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -30,13 +30,10 @@
 
 
 .proj-name {
-    text-align: center;
-    text-size-adjust: auto;
-    background: -webkit-linear-gradient(45deg, #BFF098, #6FD6FF);
+    background: -webkit-linear-gradient(bottom, #09203F, #537895);
         -webkit-background-clip: text;
         background-clip: text;
         -webkit-text-fill-color: transparent;
-    
     @media (max-width: 767px) {
         font-size: 15px;
     }

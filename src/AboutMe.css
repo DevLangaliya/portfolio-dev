@@ -6,10 +6,10 @@
 .header {
     text-align: center;
     text-size-adjust: auto;
-    background: -webkit-linear-gradient(135deg, #D8B5FF, #1EAE98);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(bottom, #A1C4FD, #A1C4FD);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
     background-image: #121212;
     font-family: sans-serif;
     font-size: 20px;

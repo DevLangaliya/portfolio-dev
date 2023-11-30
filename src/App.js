@@ -8,7 +8,7 @@ function App() {
   return (
     <div style={{ "display": "flex" }}>
       <div style={{"display":"flex", "flexDirection": "column"}}>
-        <div style={flexboxStyle}>
+        <div style={flexboxStyle1}>
           <AboutMe />
         </div>
         <div style={flexboxStyle3}>
@@ -22,7 +22,7 @@ function App() {
   );
 }
 
-const flexboxStyle = {
+const flexboxStyle1 = {
   display: 'flex',
   justifyContent: 'flex-end', // Updated to align the div to the right
   alignItems: 'center',

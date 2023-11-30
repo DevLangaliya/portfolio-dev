@@ -5,7 +5,7 @@ const ContactMe = () => {
     return (
         <div>
             
-            <div className="header" style={{ textAlign: 'center', background: 'linear-gradient(to right, #FFD700, #FF8C00)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent'}}>
+            <div className="header" style={{ textAlign: 'center', background: 'linear-gradient(bottom, #A1C4FD , #A1C4FD);', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent'}}>
                 <h1 >Contact Me!</h1>
             </div>
             <Fade left>

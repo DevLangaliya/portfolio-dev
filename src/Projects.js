@@ -40,7 +40,7 @@ export default function Projects() {
             
             <ReactCardFlip isFlipped={flip1} flipDirection="vertical">
                 <div className="App-project" style={titleDivStyle} onClick={() => setFlip1(!flip1)} onMouseEnter={() => console.log("SHOW TOOLTIP")}>
-                    <h2 className='proj-name'>ShowMe!</h2>
+                    <h2 className='proj-name' >ShowMe!</h2>
                 </div>
                 <div className="App-project" style={flipDivStyle} onClick={() => setFlip1(!flip1)}>
                     <li className='proj-desc'>Collaborated with a team to create a movie recommendation web app, with data being pulled via the TMDB API.</li>
@@ -48,16 +48,6 @@ export default function Projects() {
                     <li className='proj-desc'>Implemented Flask in combination with React to form a intuitive front-end web page with Python.</li>
                 </div>
             </ReactCardFlip>
-
-            {/* <ReactCardFlip isFlipped={flip2} flipDirection="vertical">
-                <div className="App-project" style={titleDivStyle} onClick={() => setFlip2(!flip2)} onMouseEnter={() => console.log("SHOW TOOLTIP")}>
-                    <h2 className='proj-name'>Plant Classification using Transfer Learning</h2>
-                </div>
-                <div className="App-project" style={flipDivStyle} onClick={() => setFlip2(!flip2)}>
-                    <li className='proj-desc'>Collaborated with a team to develop an application which classifies plants based on an already provided dataset.</li>
-                    <li className='proj-desc'>Utilized transfer learning to set the foundation for our plant classification model.</li>
-                </div>
-            </ReactCardFlip> */}
 
             <ReactCardFlip isFlipped={flip3} flipDirection="vertical">
                 <div className="App-project" style={titleDivStyle} onClick={() => setFlip3(!flip3)} onMouseEnter={() => console.log("SHOW TOOLTIP")}>
@@ -80,6 +70,17 @@ export default function Projects() {
                     <li className='proj-desc'>Created an easy to follow and dynamic webpage using HTML.</li>
                 </div>
             </ReactCardFlip>
+
+            {/* <ReactCardFlip isFlipped={flip2} flipDirection="vertical">
+                <div className="App-project" style={titleDivStyle} onClick={() => setFlip2(!flip2)} onMouseEnter={() => console.log("SHOW TOOLTIP")}>
+                    <h2 className='proj-name'>Plant Classification using Transfer Learning</h2>
+                </div>
+                <div className="App-project" style={flipDivStyle} onClick={() => setFlip2(!flip2)}>
+                    <li className='proj-desc'>Collaborated with a team to develop an application which classifies plants based on an already provided dataset.</li>
+                    <li className='proj-desc'>Utilized transfer learning to set the foundation for our plant classification model.</li>
+                </div>
+            </ReactCardFlip> */}
+
         </div>
     );
 }
