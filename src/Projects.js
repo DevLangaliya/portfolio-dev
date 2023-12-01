@@ -3,7 +3,6 @@ import './Projects.css';
 import ReactCardFlip from 'react-card-flip';
 import javaIMG from './logos/java.png';
 import pythonIMG from './logos/python.png';
-import reactIMG from './logos/reactjs.png';
 import flaskIMG from './logos/flask.png';
 import htmlIMG from './logos/html.png';
 import cssIMG from './logos/css.png';
@@ -11,25 +10,28 @@ import javascriptIMG from './logos/javascript.png';
 import scikitIMG from './logos/scikit.png';
 import pandasIMG from './logos/pandas.png';
 import javaFXIMG from './logos/javafx.png';
+import emptyIMG from './logos/empty.png';
 
 export default function Projects() {
     const flipDivStyle = {
-        display: 'flex-inline',
+        display: 'flex',
+        flexDirection: 'row',
         backgroundColor: '#F1FAFF',
         borderRadius: '15px',
         height: '310px',
         width: '1085px',
         padding: '10px',
+        marginBottom: '20px',
         alignItems: 'center',
-        justifyContent: 'center',
-        marginBottom: '20px' 
+        justifyContent: 'center'
     };
 
     const titleDivStyle = {
         display: 'flex',
         justifyContent: 'center',
+        flexDirection: 'row',
         alignItems: 'center',
-        backgroundColor: '#F1FAFF',
+        backgroundColor: '#FFFFFF',
         borderRadius: '15px',
         height: '310px',
         width: '1085px',
@@ -63,20 +65,35 @@ export default function Projects() {
             <ReactCardFlip isFlipped={flip1} flipDirection="vertical">
                 <div className="App-project" style={titleDivStyle} onClick={doFlip1}>
                     <h2 className='proj-name' >ShowMe!</h2>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <img src={emptyIMG} alt="empty" width="50" height="50" />
+                    <img src={pythonIMG} alt="Python" width="50" height="50" />
+                    <img src={flaskIMG} alt="Flask" width="50" height="50" />
+                    <img src={scikitIMG} alt="scikit" width="92.7272" height="50" />
+                    <img src={pandasIMG} alt="pandas" width="123.67" height="50" />
+                    <img src={cssIMG} alt="css" width="50" height="50" />
+                    <img src={htmlIMG} alt="html" width="50" height="50" />
                 </div>
-                <div className="App-project" style={flipDivStyle} onClick={doFlip1}>
-                    <div >
+                <div className="App-project">
+                    <div style={flipDivStyle} onClick={doFlip1}>
                         <li className='proj-desc'>Collaborated with a team to create a movie recommendation web app, with data being pulled via the TMDB API.</li>
                         <li className='proj-desc'>Utilized cosine similarity to locate and display movies with similar genres and viewer ratings.</li>
                         <li className='proj-desc'>Implemented Flask in combination with React to form an intuitive front-end web page with Python.</li>
                     </div>
                 </div>
-                
             </ReactCardFlip>
 
             <ReactCardFlip isFlipped={flip3} flipDirection="vertical">
                 <div className="App-project" style={titleDivStyle} onClick={doFlip3}>
                     <h2 className='proj-name'>Java Dynasty Simulator</h2>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <img src={emptyIMG} alt="empty" width="50" height="50" />
+                    <img src={javaIMG} alt="java" width="80" height="50" />
+                    <img src={javaFXIMG} alt="javafx" width="120" height="50" />
                 </div>
                 <div className="App-project" style={flipDivStyle} onClick={doFlip3}>
                     <li className='proj-desc'>American Football simulation game where the user manages an American Football team through a full season.</li>
@@ -88,6 +105,13 @@ export default function Projects() {
             <ReactCardFlip isFlipped={flip2} flipDirection="vertical">
                 <div className="App-project" style={titleDivStyle} onClick={doFlip2}>
                     <h2 className='proj-name'>Wheel Of Fortune</h2>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <img src={emptyIMG} alt="empty" width="50" height="50" />
+                    <img src={javascriptIMG} alt="java" width="50" height="50" />
+                    <img src={htmlIMG} alt="html" width="50" height="50" />
+                    <img src={cssIMG} alt="css" width="50" height="50" />
                 </div>
                 <div className="App-project" style={flipDivStyle} onClick={doFlip2}>
                     <li className='proj-desc'>Recreation of the popular TV show to be played by three players on a web browser.</li>
