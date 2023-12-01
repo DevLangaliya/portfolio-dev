@@ -1,12 +1,7 @@
-.centerWrap {
-    padding-inline: 1rem;
-    
-}
-
-.header {
+.about-me {
     text-align: center;
     text-size-adjust: auto;
-    background: -webkit-linear-gradient(bottom, #A1C4FD, #A1C4FD);
+    background: -webkit-linear-gradient(135deg, #FF5F6D, #FFC371);
         -webkit-background-clip: text;
         background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -19,10 +14,3 @@
 
 }
 
-.aboutme-width {
-    max-width: 900px;
-}
-
-::-webkit-scrollbar {
-    display: none;
-}

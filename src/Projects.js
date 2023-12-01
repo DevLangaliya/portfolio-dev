@@ -58,9 +58,11 @@ export default function Projects() {
 
     return (
         <div className="App-projects-container" style={{"width": "1115px"}}>
-            <div className='header' style={{ "backgroundColor":"black", "overflow":"hidden"}}>
-                <h1 className='proj'>Projects</h1>
-            </div>
+            
+                <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                    <h1 className='project' style={{ fontSize: '50px', color: "#f0f0f0" }}>My Projects</h1>
+                </div>
+
             
             <ReactCardFlip isFlipped={flip1} flipDirection="vertical">
                 <div className="App-project" style={titleDivStyle} onClick={doFlip1}>

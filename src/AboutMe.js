@@ -29,9 +29,11 @@ export default function AboutMe() {
 
   return (
     <main className="App-aboutme">
-      <div className="header">
-        <h1 className="about-me">About Me</h1>
+
+      <div>
+        <h1 className="about-me" style={{ fontSize: '50px', marginTop:'53px' }} >About Me</h1>
       </div>
+
       <div className="centerWrap" style={flexboxStyle}>
         <p className="aboutme-width" style={textStyle}>
           My name is Dev Langaliya, and I currently study Statistics and Economics at the University of Illinois Urbana-Champaign.
@@ -47,11 +49,11 @@ export default function AboutMe() {
           I am currently working on a project that will allow users to create their own fantasy football league and compete against their friends.
         </p>
       </div>
-      <div className="centerWrap" style={flexboxStyle}>
+      {/* <div className="centerWrap" style={flexboxStyle}>
         <p className="aboutme-width" style={textStyle}>
           I am a software engineer with a passion for building web applications.
         </p>
-      </div>
+      </div> */}
     </main>
   );
 }

@@ -1,55 +1,72 @@
-import './App.css';
 import React from 'react';
 import AboutMe from './AboutMe.js';
 import Projects from './Projects.js';
 import ContactMe from './ContactMe.js';
+import Skills from './Skills.js';
 
 function App() {
   return (
-    <div style={{ "display": "flex" }}>
-      <div style={{"display":"flex", "flexDirection": "column"}}>
-        <div style={flexboxStyle1}>
-          <AboutMe />
+    <div style={{ "display": "flex", "flexDirection": "column" }}>
+      <div style={{ "display": "flex", "flexDirection": "row" }}>
+        <div style={{"display":"flex", "flexDirection": "column"}}>
+          <div style={aboutMeBox}>
+            <AboutMe />
+          </div>
+          <div style={SkillsBox}>
+            <Skills />
+          </div>
         </div>
-        <div style={flexboxStyle3}>
-          <ContactMe />
+        <div style={ProjectsBox}>
+          <Projects />
         </div>
       </div>
-      <div style={flexboxStyle2}>
-        <Projects />
+      
+      <div style={ContactMeBox}>
+        <ContactMe />
       </div>
     </div>  
   );
 }
 
-const flexboxStyle1 = {
+const aboutMeBox = {
   display: 'flex',
-  justifyContent: 'flex-end', // Updated to align the div to the right
+  justifyContent: 'flex-end',
   alignItems: 'center',
   backgroundColor: '#121212',
   padding: '15px',
   width: '336px',
-  height: '620px'
+  height: '480px'
 };
 
-const flexboxStyle2 = {
+const ProjectsBox = {
   display: 'flex',
-  justifyContent: 'flex-end', // Updated to align the div to the right
+  justifyContent: 'flex-end',
   alignItems: 'center',
   backgroundColor: '#121212',
   padding: '15px',
   width: '1216px',
-  height: '1140px'
+  height: '1160px'
 };
 
-const flexboxStyle3= {
+const SkillsBox= {
   display: 'flex',
-  justifyContent: 'flex-end', // Updated to align the div to the right
+  justifyContent: 'flex-end',
   alignItems: 'center',
   backgroundColor: '#121212',
   padding: '15px',
   width: '336px',
-  height: '490px'
+  height: '650px'
 };
+
+const ContactMeBox= {
+  display: 'flex',
+  justifyContent: 'flex-start',
+  alignItems: 'center',
+  backgroundColor: '#121212',
+  padding: '15px',
+  width: SkillsBox.width + ProjectsBox.width,
+  height: '150px'
+};
+
 
 export default App;

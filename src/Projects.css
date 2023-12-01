@@ -1,33 +1,15 @@
-.header {
-    text-align: center;
-    text-size-adjust: auto;
-    background: -webkit-linear-gradient(bottom, #A1C4FD , #A1C4FD);
-        -webkit-background-clip: text;
-        background-clip: text;
-        -webkit-text-fill-color: transparent;
-    background-image: #121212;
-    font-family: sans-serif;
-    
 
-    @media (max-width: 767px) {
-        font-size: 12px;
-    }
 
-}
-
-.proj {
+.project {
     color: #121212;
     font-size: 44px;
     font-weight:bold;
+    
+    background: -webkit-linear-gradient(45deg,#EA8D8D,  #A890FE);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
 }
-
-.r {
-    @media (max-width: 767px) {
-        padding-right: 1rem;
-        font-size: 10px;
-    }
-}
-
 
 .proj-name {
     background: -webkit-linear-gradient(bottom, #09203F, #537895);
