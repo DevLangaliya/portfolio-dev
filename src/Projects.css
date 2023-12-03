@@ -1,43 +1,35 @@
-
-
 .project {
     color: #121212;
     font-size: 44px;
-    font-weight:bold;
-    
-    background: -webkit-linear-gradient(45deg,#EA8D8D,  #A890FE);
-        -webkit-background-clip: text;
-        background-clip: text;
-        -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    background: -webkit-linear-gradient(45deg, #EA8D8D, #A890FE);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .proj-name {
     background: -webkit-linear-gradient(bottom, #09203F, #537895);
-        -webkit-background-clip: text;
-        background-clip: text;
-        -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
     @media (max-width: 767px) {
         font-size: 15px;
     }
 }
 
-
-
 .proj-desc {
     padding-left: 3rem;
     padding-right: 3rem;
-    text-wrap: wrap;
+    white-space: wrap;
     font-size-adjust: auto;
     color: #121212;
     font-family: sans-serif;
+    
     @media (max-width: 767px) {
         padding-left: 1rem;
         padding-right: 1rem;
         font-size: 10px;
     }
-    
 }
-
-
-
-

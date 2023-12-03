@@ -6,22 +6,22 @@ import Skills from './Skills.js';
 
 function App() {
   return (
-    <div style={{ "display": "flex", "flexDirection": "column" }}>
-      <div style={{ "display": "flex", "flexDirection": "row" }}>
-        <div style={{"display":"flex", "flexDirection": "column"}}>
+    <div style={{ display: "flex", flexDirection: "column" }}>
+      <div style={{ display: "flex", flexDirection: "row" }}>
+        <div style={{ display: "flex", flexDirection: "column" }}>
           <div style={aboutMeBox}>
             <AboutMe />
           </div>
-          <div style={SkillsBox}>
+          <div style={skillsBox}>
             <Skills />
           </div>
         </div>
-        <div style={ProjectsBox}>
+        <div style={projectsBox}>
           <Projects />
         </div>
       </div>
       
-      <div style={ContactMeBox}>
+      <div style={contactMeBox}>
         <ContactMe />
       </div>
     </div>  
@@ -38,7 +38,7 @@ const aboutMeBox = {
   height: '480px'
 };
 
-const ProjectsBox = {
+const projectsBox = {
   display: 'flex',
   justifyContent: 'flex-end',
   alignItems: 'center',
@@ -48,7 +48,7 @@ const ProjectsBox = {
   height: '1160px'
 };
 
-const SkillsBox= {
+const skillsBox = {
   display: 'flex',
   justifyContent: 'flex-end',
   alignItems: 'center',
@@ -58,15 +58,14 @@ const SkillsBox= {
   height: '650px'
 };
 
-const ContactMeBox= {
+const contactMeBox = {
   display: 'flex',
   justifyContent: 'flex-start',
   alignItems: 'center',
   backgroundColor: '#121212',
   padding: '15px',
-  width: SkillsBox.width + ProjectsBox.width,
+  width: skillsBox.width + projectsBox.width,
   height: '150px'
 };
-
 
 export default App;

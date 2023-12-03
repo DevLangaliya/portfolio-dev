@@ -2,15 +2,16 @@
     text-align: center;
     text-size-adjust: auto;
     background: -webkit-linear-gradient(135deg, #FF5F6D, #FFC371);
-        -webkit-background-clip: text;
-        background-clip: text;
-        -webkit-text-fill-color: transparent;
-    background-image: #121212;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-color: #121212;
     font-family: sans-serif;
     font-size: 20px;
-    @media (max-width: 767px) {
-        font-size: 12px;
-    }
-
 }
 
+@media (max-width: 767px) {
+    .about-me {
+        font-size: 12px;
+    }
+}

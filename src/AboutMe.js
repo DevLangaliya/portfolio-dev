@@ -17,19 +17,18 @@ export default function AboutMe() {
     justifyContent: 'center',
     alignItems: 'center',
     marginBottom: '10px' 
-  }
+  };
 
   const textStyle = {
     color: randomColor(),
     fontSize: '15px',
     alignItems: 'center',
     fontFamily: "Sans Serif",
-    weight: 'bold'
-  }
+    fontWeight: 'bold'
+  };
 
   return (
     <main className="App-aboutme">
-
       <div>
         <h1 className="about-me" style={{ fontSize: '50px', marginTop:'53px' }} >About Me</h1>
       </div>
@@ -39,16 +38,19 @@ export default function AboutMe() {
           My name is Dev Langaliya, and I currently study Statistics and Economics at the University of Illinois Urbana-Champaign.
         </p>
       </div>
+
       <div className="centerWrap" style={flexboxStyle}>
         <p className="aboutme-width" style={textStyle}>
           I have an interest in building intuitive and user-friendly web applications, such as this website. 
         </p>
       </div>
+
       <div className="centerWrap" style={flexboxStyle}>
         <p className="aboutme-width" style={textStyle}>
           I am currently working on a project that will allow users to create their own fantasy football league and compete against their friends.
         </p>
       </div>
+
       {/* <div className="centerWrap" style={flexboxStyle}>
         <p className="aboutme-width" style={textStyle}>
           I am a software engineer with a passion for building web applications.

@@ -4,10 +4,37 @@ import emptyIMG from './logos/empty.png';
 import './ContactMe.css';
 
 const ContactMe = () => {
+    const flexboxStyle = {
+        display: 'flex',
+        backgroundColor: '#F1FAFF',
+        borderRadius: '15px',
+        height: '100px',
+        width: '310px',
+        padding: '10px',
+        justifyContent: 'center',
+        alignItems: 'center',
+    };
+
+    const handleEmailClick = () => {
+        window.location.href = 'mailto:devl2@illinois.edu';
+    };
+
+    const emailStyle = {
+        fontFamily: 'Helvetica',
+        fontSize: '20px',
+        backgroundColor: '#F1FAFF',
+        borderRadius: '15px',
+        height: '100px',
+        width: '310px',
+        padding: '10px',
+        justifyContent: 'center',
+        alignItems: 'center',
+    };
+
     return (
-        <div style={{ display: 'flex', flexDirection: 'row', justifyContent:'left', marginLeft:'83px' }}>
+        <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'left', marginLeft: '83px' }}>
             <div className="contact">
-                <h1 >Contact Me!</h1>
+                <h1>Contact Me!</h1>
             </div>
             <img src={emptyIMG} alt="empty" width="100" />
             <Fade left>
@@ -33,36 +60,8 @@ const ContactMe = () => {
                     </a>
                 </div>
             </Fade>
-            
         </div>
     );
 };
-
-const flexboxStyle = {
-    display: 'flex',
-    backgroundColor: '#F1FAFF',
-    borderRadius: '15px',
-    height: '100px',
-    width: '310px',
-    padding: '10px',
-    justifyContent: 'center',
-    alignItems: 'center',
-}
-
-const handleEmailClick = () => {
-    window.location.href = 'mailto:devl2@illinois.edu';
-}
-
-const emailStyle = {
-    fontFamily: 'Helvetica',
-    fontSize: '20px',
-    backgroundColor: '#F1FAFF',
-    borderRadius: '15px',
-    height: '100px',
-    width: '310px',
-    padding: '10px',
-    justifyContent: 'center',
-    alignItems: 'center',
-}
 
 export default ContactMe;

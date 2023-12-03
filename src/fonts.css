@@ -1,18 +1,14 @@
 @font-face {
     font-family: 'PixelReg'; 
-    src: local('fonts'),
-        url('src/fonts/PixelifySans-Regular.woff') format('woff'),
+    src: url('src/fonts/PixelifySans-Regular.woff') format('woff');
 }
 
 @font-face {
     font-family: 'PixelMed';
-    src: local('fonts'),
-        url('src/fonts/PixelifySans-Medium.woff') format('woff'),
+    src: url('src/fonts/PixelifySans-Medium.woff') format('woff');
 }
 
 @font-face {
     font-family: 'PixelSem';
-    src: local('fonts'),
-        url('src/fonts/PixelifySans-SemiBold.woff') format('woff'),
+    src: url('src/fonts/PixelifySans-SemiBold.woff') format('woff');
 }
-
