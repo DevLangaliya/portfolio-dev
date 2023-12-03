@@ -12,9 +12,9 @@ const ContactMe = () => {
             <img src={emptyIMG} alt="empty" width="100" />
             <Fade left>
                 <div style={flexboxStyle}>
-                    <a href="mailto:devl2@illinois.edu" style={{ fontFamily: 'Helvetica' }}>
+                    <button onClick={handleEmailClick} style={emailStyle}>
                         Click to email me!
-                    </a>
+                    </button>
                 </div>
             </Fade>
             <img src={emptyIMG} alt="empty" width="57.5" />
@@ -49,9 +49,20 @@ const flexboxStyle = {
     alignItems: 'center',
 }
 
-const headerStyle = {
-    textAlign: 'center',
-    
-};
+const handleEmailClick = () => {
+    window.location.href = 'mailto:devl2@illinois.edu';
+}
+
+const emailStyle = {
+    fontFamily: 'Helvetica',
+    fontSize: '20px',
+    backgroundColor: '#F1FAFF',
+    borderRadius: '15px',
+    height: '100px',
+    width: '310px',
+    padding: '10px',
+    justifyContent: 'center',
+    alignItems: 'center',
+}
 
 export default ContactMe;
