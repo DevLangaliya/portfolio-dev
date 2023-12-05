@@ -12,7 +12,7 @@ const Skills = () => {
         { name: "HTML", level: 60 },
         { name: "Mathematica", level: 85 },
         { name: "Git", level: 65 },
-        { name: "LaTex", level: 80 },
+        { name: "LaTeX", level: 80 },
     ];
 
     const getColor = (level) => {
